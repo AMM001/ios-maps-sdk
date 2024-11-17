@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "GoogleMaps", platforms: [.iOS(.v15)],
+  name: "GoogleMaps", platforms: [.iOS(.v13)],
   products: [.library(name: "GoogleMaps", targets: ["GoogleMapsTarget"])], dependencies: [],
   targets: [
     .binaryTarget(
